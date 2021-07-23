@@ -3,14 +3,14 @@
     "tasks": [
         {
             "label": "Run",
-            // "command": "/home/skyadmin/processing-3.5.4/processing-java",
+            "command": "/home/skyadmin/processing-3.5.4/processing-java",
             // "command": "/home/mio/processing-3.5.4/processing-java",
-            "command": "C:\\processing-3.5.4\\processing-java.exe",
+            // "command": "C:\\processing-3.5.4\\processing-java.exe",
             "type": "process",
             "args": [
                 "--force",
-                // "--sketch=${workspaceFolder}/${relativeFileDirname}",
-                "--sketch=${workspaceFolder}\\${relativeFileDirname}",
+                "--sketch=${workspaceFolder}/${relativeFileDirname}",
+                // "--sketch=${workspaceFolder}\\${relativeFileDirname}",
                 "--run"
             ],
             "group": {
